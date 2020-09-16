@@ -1,0 +1,19 @@
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    font-weight: bold;
+}
+
+hr{
+    font-weight: bold;
+}
+
+.right{
+    float: right;
+}
+
+
+header{
+    text-align: center;
+}
