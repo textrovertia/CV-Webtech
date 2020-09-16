@@ -1,5 +1,8 @@
-.body{
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    
 }
 .title{
     font-weight: bold;
@@ -14,6 +17,14 @@ hr{
 }
 
 
-header{
+.header{
     text-align: center;
+}
+
+main{
+    margin: 5%;
+}
+
+.kente{
+    width: 100%;
 }

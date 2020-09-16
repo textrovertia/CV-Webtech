@@ -10,7 +10,17 @@ formElement.addEventListener("submit", e => {
     const middlename=e.target.elements.middlename.value;
     localStorage.setItem("middle", middlename);
 
-    const lastname=e.target.elements.lastname
+    const lastname=e.target.elements.last.value;
+    localStorage.setItem("last", lastname )
+    
+    const address=e.target.elements.address.value;
+    localStorage.setItem("address", address);
+
+    const phone=e.target.elements.phone.value;
+    localStorage.setItem("phone", phone)
+
+    const email=e.target.elements.email.value;
+    localStorage.setItem("email", email)
     
 
 
