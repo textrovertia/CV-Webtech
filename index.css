@@ -1,13 +1,19 @@
 body{
     box-sizing: border-box;
     background-color: antiquewhite;
+    
 }
-
 form{
-    text-align: center;
+    width: 200px;
+    margin: auto;
+    
     
 }
 
 .kente{
     width: 100%;
+}
+
+label{
+  
 }

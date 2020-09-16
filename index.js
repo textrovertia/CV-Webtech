@@ -4,6 +4,7 @@ const window2=window.location
 formElement.addEventListener("submit", e => {
     e.preventDefault();
 
+
     const firstname = e.target.elements.firstname.value;
     localStorage.setItem("first", firstname);
 
@@ -22,8 +23,22 @@ formElement.addEventListener("submit", e => {
     const email=e.target.elements.email.value;
     localStorage.setItem("email", email)
     
+    const regex=/^[a-zA-Z ]*$/; 
+    const regex1=/^[0-9 ()+-]+$/
+        if (!regex.test(e.target.elements.firstname.value))  {
+            alert("Your first name is not entered correctly")
+            
+        }if(!regex.test(e.target.elements.middlename.value))  {
+            alert("Your middle name is not entered correctly")
+            
+        }if(!regex.test(e.target.elements.last.value))  {
+            alert("Your last name is not entered correctly")
+        }if(!regex1.test(e.target.elements.phone.value)){
+            alert("Enter a valid phone number")
+            
+        }else{
+            location.href="cv.html"
+        }
 
-
-   
-
+        
 });
