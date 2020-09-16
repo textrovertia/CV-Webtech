@@ -6,42 +6,45 @@
 
     </head>
     <body>
-        <h3>CV DETAILS</h3>
-        <p>
-            <label for="first">First name:</label>
-            <input type="text" name="first" id="first">
-        </p>
-        <p>
-            <label for="middle">Middle name(s):</label>
-            <input type="text" name="middle" id="middle">
-        </p>
-        <p>
-            <label for="last">Last name:</label>
-            <input type="text" name="last" id="last">
-        </p>
-        <p>
-            <label for="gender">Gender:</label>
-            <select name="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-        </p>
-        <p>
-            <label for="phone">Phone Number:</label>
-            <input type="number" name="phone" id="phone" maxlength="13">
-        </p>
-        <p>
-            <label for="email">Email:</label>   
-            <input type="email" name="email" id="email">
-        </p>
-        <p>
-            <label for="address">Address</label>
-            <input type="text" name="address" id="address">
-        </p>
-        <p>
-            <input type="submit" name="submit" id="submit" value="Submit"> 
-        </p>
+        <form id="form" method="post">
+            <h3>CV DETAILS</h3>
+            <p>
+                <label for="firstname">First name</label>:
+                <input type="text" name="firstname" id="firstname" required>
+            </p>
+            <p>
+                <label for="middlename">Middle name(s):</label>
+                <input type="text" name="middlename" id="middlename">
 
-        
+            </p>
+            <p>
+                <label for="last">Last name</label>:
+                <input type="text" name="last" id="last">
+            </p>
+            <p>
+                <label for="gender">Gender:</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </p>
+            <p>
+                <label for="phone">Phone Number:</label>
+                <input type="number" name="phone" id="phone" maxlength="13">
+            </p>
+            <p>
+                <label for="email">Email:</label>   
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address">
+            </p>
+            <p>
+                <input type="submit" name="submit" id="submit" value="Submit"> 
+            </p>
+        </form>
+
+        <script src="index.js"></script>
     </body>
 </html>
